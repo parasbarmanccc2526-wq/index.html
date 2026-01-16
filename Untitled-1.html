@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Paras Barman | Resume</title>
+    <style>
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: linear-gradient(to right, #e3f2fd, #fce4ec);
+            margin: 0;
+            padding: 30px;
+        }
+
+        .resume {
+            max-width: 900px;
+            margin: auto;
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        /* HEADER */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: linear-gradient(to right, #1976d2, #42a5f5);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        .tagline {
+            font-style: italic;
+            opacity: 0.9;
+        }
+
+        .contact p {
+            margin: 4px 0;
+        }
+
+        .header-right img {
+            width: 140px;
+            height: 170px;
+            border-radius: 10px;
+            border: 3px solid #fff;
+            object-fit: cover;
+        }
+
+        /* SECTIONS */
+        .section {
+            margin-top: 25px;
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        .section h2 {
+            margin-top: 0;
+            border-left: 5px solid #000;
+            padding-left: 10px;
+        }
+
+        /* COLORS */
+        .blue { background: #e3f2fd; }
+        .green { background: #e8f5e9; }
+        .purple { background: #f3e5f5; }
+        .orange { background: #fff3e0; }
+        .gray { background: #f5f5f5; }
+
+        /* TABLE */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        th {
+            background: #1976d2;
+            color: white;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: center;
+        }
+
+        /* LIST */
+        ul {
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 6px;
+        }
+
+        /* PERSONAL INFO */
+        .personal-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+
+        .personal-grid span {
+            font-weight: bold;
+            color: #1976d2;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            .header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .personal-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="resume">
+
+    <!-- HEADER -->
+    <div class="header">
+        <div class="header-left">
+            <h1>Paras Barman</h1>
+            <p class="tagline">
+                Beginner Computer Student | Quick Learner | Motivated
+            </p>
+
+            <p>
+                I am currently studying in the WES Foundation Basic Computer Course.
+                I am eager to learn computer skills and improve my knowledge for better opportunities.
+            </p>
+
+            <div class="contact">
+                <p>📍 177 Railway Colony, Dhanpuri No. 3, Shahdol - 484118</p>
+                <p>📞 8815596626</p>
+                <p>✉️ parasbarman779@gmail.com</p>
+            </div>
+        </div>
+
+        <div class="header-right">
+            <img src="photo.jpg" alt="Profile Photo">
+        </div>
+    </div>
+
+    <!-- CAREER OBJECTIVE -->
+    <div class="section blue">
+        <h2>Career Objective</h2>
+        <p>
+            To obtain a beginner-level position where I can use my basic computer
+            knowledge, improve my skills, and contribute to the growth of the organization.
+        </p>
+    </div>
+
+    <!-- ACADEMIC -->
+    <div class="section green">
+        <h2>Academic Qualification</h2>
+        <table>
+            <tr>
+                <th>S.No</th>
+                <th>Qualification</th>
+                <th>Board</th>
+                <th>Year</th>
+                <th>Percentage</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>12 Pass</td>
+                <td>Board</td>
+                <td>2025</td>
+                <td>54%</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>10 Pass</td>
+                <td>Board</td>
+                <td>2023</td>
+                <td>61.4%</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- SKILLS -->
+    <div class="section purple">
+        <h2>Other Qualification</h2>
+        <ul>
+            <li>Basic Computer Knowledge</li>
+            <li>MS Word, MS Excel, MS PowerPoint</li>
+            <li>Currently pursuing Basic Computer Course (WES Foundation)</li>
+            <li>Practical knowledge of computer operations</li>
+        </ul>
+    </div>
+
+    <!-- EXPERIENCE -->
+    <div class="section orange">
+        <h2>Work Experience</h2>
+        <p>No work experience (Fresher)</p>
+    </div>
+
+    <!-- PERSONAL -->
+    <div class="section gray">
+        <h2>Personal Information</h2>
+        <div class="personal-grid">
+            <p><span>Father's Name:</span> Parkash Barman</p>
+            <p><span>Date of Birth:</span> 11 June 2008</p>
+            <p><span>Languages:</span> Hindi, English</p>
+            <p><span>Gender:</span> Male</p>
+            <p><span>Nationality:</span> Indian</p>
+            <p><span>Marital Status:</span> Unmarried</p>
+        </div>
+    </div>
+
+    <!-- DECLARATION -->
+    <div class="section blue">
+        <h2>Declaration</h2>
+        <p>
+            I hereby declare that the above information is true to the best of my knowledge.
+        </p>
+    </div>
+
+</div>
+
+</body>
+</html>
