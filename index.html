@@ -123,6 +123,26 @@
                 grid-template-columns: 1fr;
             }
         }
+
+        .profile-photo{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid blue; 
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.profile-photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
     </style>
 </head>
 <body>
@@ -146,6 +166,11 @@
                 <p>📍 177 Railway Colony, Dhanpuri No. 3, Shahdol - 484118</p>
                 <p>📞 8815596626</p>
                 <p>✉️ parasbarman779@gmail.com</p>
+                <div class="profile-photo">
+<img src="photo.jpg"alt="Profile Photo">
+
+}
+ </div>
             </div>
         </div>
 
@@ -234,3 +259,4 @@
 </body>
 
 </html>
+
